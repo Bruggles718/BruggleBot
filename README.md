@@ -2,6 +2,7 @@
 This is a Markov chain text generator in the form of a twitch chat bot that generates text based on previous chat messages.
 
 I learned to make this by following these two videos so I highly recommend you watch these if you want to understand how my code works:
+
 https://www.youtube.com/watch?v=T8DLwACpe3o&ab_channel=BadNidalee
 https://www.youtube.com/watch?v=MGVdu39gT6k&t=1s&ab_channel=AliceZhao
 
