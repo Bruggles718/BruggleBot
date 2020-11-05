@@ -16,7 +16,7 @@ chatBackLogAmountMin = 50 #this is how many messages it will store before it sta
 chatBackLogAmountMax = 100000 #this is how many messages it will store up to before it starts replacing old messages with new ones. basically, say you set this to 150. when the 151st message is sent, it will delete the first message it has stored, and replace it with the 151st, so it stays at 150 messages stored.
 loopingMessages = False #this determines if it has started sending messages yet or not. this is just so that when you initially run it, it knows to start sending messages, and won't start the loop every time another message is sent.
 timeRangeStart = 300 #this is the least amount of seconds it can take between messages
-timeRangeEnd = 600 #this is the most amount of time it can take between messages. it randomly chooses a number between the timeRangeStart and timeRangeEnd fow how many seconds it will take to generate the next message
+timeRangeEnd = 600 #this is the most amount of time it can take between messages. it randomly chooses a number between the timeRangeStart and timeRangeEnd for how many seconds it will take to generate the next message
 timeBetweenMessages = random.randint(timeRangeStart,timeRangeEnd)
 
 s = openSocket() #check Socket.py
