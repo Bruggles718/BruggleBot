@@ -48,7 +48,7 @@ def markov_chain(text):
     m_dict = dict(m_dict)
     return m_dict
 
-#this is the function used to get the first two words of every message sent so it can start the markov chain on one of these to ensure the message it generates starts at the beginning of a complete thought, not in the middle
+#this is the function used to get the first two words of every message it has stored so it can start the markov chain on one of these to ensure the message it generates starts at the beginning of a complete thought, not in the middle
 def line_starts(text):
     lines = text.split('\n')
     linestarts = []
